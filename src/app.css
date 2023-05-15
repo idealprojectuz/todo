@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    width: 700px;
+    height: 650px;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(to bottom, #4A00E0, #8E2DE2);
+    background: linear-gradient(to bottom, #4A00E0, #8E2DE2);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.todobody{
+    overflow-y: scroll;
+    height: 86%;
+}
+.todoForm input{
+    padding: 10px 10px;
+    outline: none;
+    width: 30%;
+
+    border: 2px solid rgb(7, 21, 219);
+}
+.todoForm{
+    padding-top: 10px;
+}
+.todoForm button{
+    padding: 10px 10px;
+    outline: none;
+    background-color: rgb(7, 21, 219);
+    border: 2px solid rgb(7, 21, 219);
+    cursor: pointer;
+    color: white;
+}

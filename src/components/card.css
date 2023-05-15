@@ -1,0 +1,47 @@
+.cardItem{
+    width: 80%;
+    height: fit-content;
+    background-color: rgb(225, 225, 225);
+    margin-top: 20px !important;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 12px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+
+}
+.cardTitle{
+    color: rgb(13, 18, 43);
+}
+.cardDesc{
+    padding: 10px 0px;
+}
+.todobody{
+    margin-bottom: 20px;
+}
+.forms{
+    text-align: center;
+}
+.close{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    
+}
+
+.close i {
+    font-size: 20px;   
+    color: rgb(0, 47, 255);
+}
+.edit{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    cursor: pointer;
+}
+.edit i{
+    font-size: 15px;
+    color: rgb(0, 47, 255);
+}
